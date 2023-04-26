@@ -2,7 +2,9 @@
     // system
     "files.autoSaveDelay": 3000,
     "files.autoSave": "afterDelay",
+    "files.trimTrailingWhitespace": true,
     "editor.multiCursorModifier": "ctrlCmd",
+    "editor.mouseWheelZoom": true,
     "window.zoomLevel": 2,
 
     // themes
@@ -13,11 +15,12 @@
     // terminal
     "terminal.integrated.fontSize": 11,
     "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
+    "terminal.integrated.fontWeight": "bold",
 
     // languages
     "[python]": {
         "editor.formatOnType": true,
         "editor.guides.indentation": true,
-        "editor.rulers": [72, 79]
+        "editor.rulers": [72, 79],
     },
 }
