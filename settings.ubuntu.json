@@ -8,6 +8,7 @@
     // themes
     "workbench.colorTheme": "Monokai Classic",
     "workbench.iconTheme": "vscode-icons",
+    // "workbench.iconThem": "material-icon-them",
     "vsicons.dontShowNewVersionMessage": true,
 
     // editor
