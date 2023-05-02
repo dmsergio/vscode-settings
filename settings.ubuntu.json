@@ -1,13 +1,15 @@
 {
     // system
+    "explorer.confirmDelete": false,
     "files.autoSaveDelay": 3000,
     "files.autoSave": "afterDelay",
     "files.trimTrailingWhitespace": true,
     "window.zoomLevel": 1,
+    "workbench.startupEditor": "none",
 
     // themes
     "workbench.colorTheme": "Monokai Classic",
-    "workbench.iconThem": "material-icon-them",
+    "workbench.iconTheme": "material-icon-theme",
     "vsicons.dontShowNewVersionMessage": true,
 
     // editor
@@ -20,6 +22,9 @@
     "terminal.integrated.fontSize": 13,
     "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
     "terminal.integrated.fontWeight": "bold",
+    "terminal.integrated.shellIntegration.history": 100,
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.persistentSessionReviveProcess": "never",
 
     // languages
     "[python]": {
@@ -27,4 +32,5 @@
         "editor.guides.indentation": true,
         "editor.rulers": [72, 79],
     },
+    "extensions.ignoreRecommendations": true,
 }
