@@ -3,6 +3,16 @@
     "explorer.confirmDelete": false,
     "files.autoSaveDelay": 3000,
     "files.autoSave": "afterDelay",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/*.pyc": {"when": "$(basename).py"},
+        "**/__pycache__": true,
+    },
     "files.trimTrailingWhitespace": true,
     "window.zoomLevel": 1,
     "workbench.startupEditor": "none",
@@ -13,16 +23,16 @@
     "vsicons.dontShowNewVersionMessage": true,
 
     // editor
-    "editor.fontSize": 15,
+    "editor.fontSize": 14,
     "editor.mouseWheelZoom": true,
     "editor.multiCursorModifier": "ctrlCmd",
 
 
     // terminal
-    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.fontSize": 14,
     "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
-    "terminal.integrated.fontWeight": "bold",
-    "terminal.integrated.shellIntegration.history": 100,
+    // "terminal.integrated.fontWeight": "bold",
+    "terminal.integrated.shellIntegration.history": 500,
     "terminal.integrated.enablePersistentSessions": false,
     "terminal.integrated.persistentSessionReviveProcess": "never",
 
