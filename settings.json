@@ -1,7 +1,8 @@
 {
     // system
     "explorer.confirmDelete": false,
-    "files.autoSaveDelay": 3000,
+    "extensions.ignoreRecommendations": true,
+    "files.autoSaveDelay": 2000,
     "files.autoSave": "afterDelay",
     "files.exclude": {
         "**/.git": true,
@@ -41,5 +42,4 @@
         "editor.guides.indentation": true,
         "editor.rulers": [72, 79],
     },
-    "extensions.ignoreRecommendations": true,
 }
