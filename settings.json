@@ -26,13 +26,11 @@
     // editor
     "editor.fontSize": 14,
     "editor.mouseWheelZoom": true,
-    "editor.multiCursorModifier": "ctrlCmd",
 
 
     // terminal
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
-    // "terminal.integrated.fontWeight": "bold",
     "terminal.integrated.shellIntegration.history": 500,
     "terminal.integrated.enablePersistentSessions": false,
     "terminal.integrated.persistentSessionReviveProcess": "never",
