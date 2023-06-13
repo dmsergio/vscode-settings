@@ -18,7 +18,7 @@
 
 [https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 
-En ciertas distros de Linux, el comando Ctrl + Click está reservado para reorganizar las ventanas de las aplicaciones dentro del sistema operativo. Esto colisiona con el atajo de teclado del multicursor en VS Code. Para desactivar el comportamiento en el sistema operativo, se debe instalar el paquete **gnome-tweaks**:
+En ciertas distros de Linux, el comando Alt + Click está reservado para reorganizar las ventanas de las aplicaciones dentro del sistema operativo. Esto colisiona con el atajo de teclado del multicursor en VS Code. Para desactivar el comportamiento en el sistema operativo, se debe instalar el paquete **gnome-tweaks**:
 
 `sudo apt install gnome-tweaks`
 
