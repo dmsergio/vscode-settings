@@ -27,3 +27,19 @@ Una vez instalado:
 1. Abrir la aplicación.
 2. Ir a "Ventanas".
 3. Desactivar la opción "Tecla de acción de la ventana".
+
+---
+
+### Oh my posh
+
+**Theme**: onehalf.minimal.omp.json
+
+**Show Python virtual environment**:
+```json
+{
+    "type": "python",
+    "style": "plain",
+    "foreground": "yellow",
+    "template": " \uE235 ({{ .Venv }}) {{ .Full }} "
+}
+```
